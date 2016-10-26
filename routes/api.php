@@ -142,7 +142,7 @@ Route::get('/pick', function (Request $request) {
     }
 
 
-    define('WEBHOOK_URL', 'http://');
+    define('WEBHOOK_URL', 'http://54.206.79.227/api/pick');
 
     if (php_sapi_name() == 'cli') {
         // if run from console, set or delete webhook
